@@ -1,1 +1,28 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: #FBF9F1;
+}
+
+#container
+{
+  width: 960px;
+  margin: 0 auto;
+  font-family: Verdana, "san-serif";
+}
+
+#topbar
+{
+  background-color: #3E362D;
+}
+
+#content
+{
+  background-color: #E5E1C8;
+  color: #655D53;
+}

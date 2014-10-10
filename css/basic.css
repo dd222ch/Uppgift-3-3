@@ -52,11 +52,18 @@ body
   display: inline-block;
   padding: 10px 20px;
   font-size: 0.9em;
+  border-top: 1px solid #E5E1C8;
+}
+
+#menu ul li a::first-letter
+{
+  text-transform: uppercase;
 }
 
 #menu ul li.active a
 {
   background: #E5E1C8;
+  border: none;
   color: #655D53;
 }
 
